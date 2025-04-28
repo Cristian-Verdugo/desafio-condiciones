@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío DOM</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+    <!-- Ejercicio 1 -->
+    <h2>Ejercicio 1: Borde al hacer clic</h2>
+    <img id="imagen-toggle" src="assets/img/imagen1.png" alt="Imagen clickeable" />
+
+    <!-- Ejercicio 2 -->
+    <h2>Ejercicio 2: Stickers</h2>
+    <div class="stickers">
+        <img src="assets/img/imagen2.png" alt="Sticker 1">
+        <input type="number" id="sticker1" min="0" max="10" />
+
+        <img src="assets/img/imagen3.png" alt="Sticker 2">
+        <input type="number" id="sticker2" min="0" max="10" />
+
+        <img src="assets/img/imagen4.png" alt="Sticker 3">
+        <input type="number" id="sticker3" min="0" max="10" />
+    </div>
+    <p id="mensaje-stickers"></p>
+    <button onclick="verificarStickers()">Verificar</button>
+
+    <!-- Ejercicio 3 -->
+    <h2>Ejercicio 3: Password</h2>
+    <select id="digit1">
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+    </select>
+    <select id="digit2">
+        <option value="1">1</option>
+        <option value="5">5</option>
+    </select>
+    <select id="digit3">
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <button onclick="verificarPassword()">Ingresar</button>
+    <p id="mensaje-password"></p>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
