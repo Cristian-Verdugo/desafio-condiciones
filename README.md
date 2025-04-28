@@ -1,1 +1,1 @@
-# desafio-condiciones
+Desafío: Condiciones y Manipulación del DOM
